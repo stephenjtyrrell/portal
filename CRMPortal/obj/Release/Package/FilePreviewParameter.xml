@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SalespersonPortal20161207070354" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\styrrell\\CRMPortal\\CRMPortal\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\styrrell\\CRMPortal\\CRMPortal\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CRMPortal-Web.config Connection String" description="" value="Url=http://vmdevcrm2015:5555/SalesPortal; Domain=ERGO; Username=ergo\cdev; Password=Ergo2015" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\styrrell\\CRMPortal\\CRMPortal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CRMPortal']/@connectionString" />
+  </parameter>
+</parameters>
