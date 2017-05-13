@@ -21,5 +21,9 @@ namespace CRMPortal
         {
             Response.Redirect("WonOpportunities.aspx");
         }
+        protected void btnLead_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("OpenLeads.aspx");
+        }
     }
 }
