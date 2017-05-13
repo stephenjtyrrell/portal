@@ -1,0 +1,2 @@
+string strScript = "<script language='JavaScript'>alert('Lead has been created')</script>";
+            Page.RegisterStartupScript("PopUp", strScript);

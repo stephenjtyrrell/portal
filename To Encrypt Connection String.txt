@@ -2,7 +2,7 @@ TO ENCRYPT
 
 cd C:/Windows/Microsoft.net/Framework64/v4.0.30319
 
-aspnet_regiis -pef "connectionStrings" C:\users\styrrell\CRMPortal\CRMPortal
+aspnet_regiis -pef "connectionStrings" C:\Users\styrrell\Source\Repos\NewRepo\CRMPortal\CRMPortal
 
 TO DECRYPT
 
