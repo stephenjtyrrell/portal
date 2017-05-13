@@ -115,6 +115,7 @@
     <Content Include="bootstrap.css" />
     <Content Include="bootstrap.min.css" />
     <Content Include="CreateOpportunity.aspx" />
+    <Content Include="OpenLeads.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -123,8 +124,9 @@
     <Content Include="MyOpenOpportunities.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Site.css" />
-    <Content Include="WebForm3.aspx" />
+    <Content Include="CreateLead.aspx" />
     <Content Include="WonOpportunities.aspx" />
+    <None Include="Properties\PublishProfiles\CRMPortal.pubxml" />
     <None Include="Properties\PublishProfiles\SalespersonPortal.pubxml" />
     <None Include="Properties\PublishProfiles\SalespersonPortal20161207070354 %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\SalespersonPortal20161207070354.pubxml" />
@@ -148,6 +150,13 @@
     <Compile Include="CreateOpportunity.aspx.designer.cs">
       <DependentUpon>CreateOpportunity.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OpenLeads.aspx.cs">
+      <DependentUpon>OpenLeads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenLeads.aspx.designer.cs">
+      <DependentUpon>OpenLeads.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PortalPage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -166,12 +175,12 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm3.aspx.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="CreateLead.aspx.cs">
+      <DependentUpon>CreateLead.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm3.aspx.designer.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="CreateLead.aspx.designer.cs">
+      <DependentUpon>CreateLead.aspx</DependentUpon>
     </Compile>
     <Compile Include="WonOpportunities.aspx.cs">
       <DependentUpon>WonOpportunities.aspx</DependentUpon>

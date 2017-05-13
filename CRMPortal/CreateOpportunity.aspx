@@ -17,19 +17,19 @@
                               ID="NewOpportunityView" EntityName="opportunity" SavedQueryName="Portal View"  
                               >         
 
+
                           </crm:CrmEntityFormView>
-
-
+               <asp:Button ID="Button1" Text='Go Back to My Opportunities' OnClick ="btnConfirm_Click" CommandName ="Create" ValidationGroup ="validators" runat ="server"  />
             </div>      
-            <div class ="actions">
-                <asp:Button ID="SubmitButton" Text='Go Back to My Opportunities'
+         <%---     <div class ="actions">
+              <asp:Button ID="SubmitButton" Text='Go Back to My Opportunities'
                     OnClick ="btnConfirm_Click"
 
 
-                   CommandName ="Create" ValidationGroup ="validators" runat ="server" />
+                   CommandName ="Create" ValidationGroup ="validators" runat ="server" Height="34px" Width="256px" />
                 
             </div>
-
+             ---%>
         </form> 
 
     </body>
