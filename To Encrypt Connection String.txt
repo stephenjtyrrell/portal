@@ -11,7 +11,7 @@ cd C:/Windows/Microsoft.net/Framework64/v4.0.30319
 aspnet_regiis -pdf "connectionStrings" C:\users\styrrell\CRMPortal\CRMPortal
 
  <connectionStrings>
-  <add name="SalesPortal" connectionString="Url=http://http://vmdevcrm2015:5555/SalesPortal; Username=ergo\styrrell; Password=Ste5863132"/>
+  <add name="SalesPortal" connectionString="Url=http://http://vmdevcrm2015:5555/SalesPortal; Username=; Password="/>
   </connectionStrings>
 
  <authentication mode="Forms">
